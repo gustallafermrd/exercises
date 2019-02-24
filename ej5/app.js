@@ -10,6 +10,6 @@ if(numero2 > 0) {
 if(numero1 < 0 || numero1 != 0) {
   console.log("numero1 es negativo o distinto de cero");
 }
-if(i = numero1; numero1 < numero2; i++ ) {
+if(i = numero1, numero1 < numero2, i++ ) {
   console.log("Incrementar en 1 unidad el valor de numero1 no lo hace mayor o igual que numero2");
 }
